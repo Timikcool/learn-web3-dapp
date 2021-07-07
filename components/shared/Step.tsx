@@ -151,15 +151,15 @@ const StepContent = styled.div`
 	margin-bottom: 100px;
 `;
 
-const NextButton = styled(Button)<{ bgColor: string; textColor: string }>`
+const NextButton = styled(Button) <{ bgColor: string; textColor: string }>`
 	border: none;
 
-	color: ${({ textColor })=> textColor};
-	background: ${({ bgColor })=> bgColor};
+	color: ${({ textColor }) => textColor};
+	background: ${({ bgColor }) => bgColor};
 
 	&:hover {
-		background: ${({ bgColor })=> bgColor};
-		color: ${({ textColor })=> textColor};
+		background: ${({ bgColor }) => bgColor};
+		color: ${({ textColor }) => textColor};
 		border: none;
 		box-shadow: black 2px 2px 1px;
 	}
